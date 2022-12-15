@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Práctica Final</title>
+	<link href="código.css" rel="stylesheet" type="text/css">
+  <Script Language="JavaScript">
+  function DameLaFechaHora() {
+    var hora = new Date()
+    var hrs = hora.getHours();
+    var min = hora.getMinutes();
+    var hoy = new Date();
+    var m = new Array();
+    var d = new Array()
+    var an= hoy.getYear();
+    m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+    m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+    m[6]="Julio"; m[7]="Agosto";   m[8]="Septiembre";
+    m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+  
+  if (min<10){
+    document.write("Son las "+hrs+":0"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  else{
+    document.write("Son las "+hrs+":"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  }
+</Script>
+</head>
+<body>
+  <img src="fondo.png" height="250" width="1800">
+  <h1 class="Banner">MORAT</h1>
+  <img src="LILA.png" height="100" width="1800">
+    <a href="pagina 4.html" class="indice4"> Contacto</a>
+    <a href="pagina 3.html" class="indice3"> Música </a>
+    <a href="pagina 2.html" class="indice2"> Integrantes </a>
+    <a href="pagina 1.html" class="indice1"> Inicio </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="ALBUM">¿A DÓNDE VAMOS?</p>
+  <p class="respuesta">Su album más exitoso</p>
+  <img src="CANCION.jpg" class="ADV" height="400" width="400">
+  <p class="DISCO">CÓMO TE ATREVES A VOLVER</p>
+  <p class="ANSWER">Su canción más popular</p>
+  <iframe class="VIDEO" width="560" height="315" src="https://www.youtube.com/embed/_gm5piKnrS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr class="BR">
+  <h2 class="hora1"><script>DameLaFechaHora();</script></h2>
+</body>
+</html>

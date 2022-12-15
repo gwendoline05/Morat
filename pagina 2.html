@@ -1,0 +1,73 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pagina 2</title>
+	<link href="código.css" rel="stylesheet" type="text/css">
+  <Script Language="JavaScript">
+  function DameLaFechaHora() {
+    var hora = new Date()
+    var hrs = hora.getHours();
+    var min = hora.getMinutes();
+    var hoy = new Date();
+    var m = new Array();
+    var d = new Array()
+    var an= hoy.getYear();
+    m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+    m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+    m[6]="Julio"; m[7]="Agosto";   m[8]="Septiembre";
+    m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+  
+  if (min<10){
+    document.write("Son las "+hrs+":0"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  else{
+    document.write("Son las "+hrs+":"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  }
+</Script>
+</head>
+<body>
+  <img src="fondo.png" height="250" width="1800">
+  <h1 class="Banner">MORAT</h1>
+  <img src="LILA.png" height="100" width="1800">
+    <a href="pagina 4.html" class="indice4"> Contacto</a>
+    <a href="pagina 3.html" class="indice3"> Música </a>
+    <a href="pagina 2.html" class="indice2"> Integrantes </a>
+    <a href="pagina 1.html" class="indice1"> Inicio </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="PABLO">Juan Pablo Isaza Piñeros</p>
+  <p class="HISTORIA">Juan Pablo Isaza Piñeros (nació en 9 de Agosto de 1994, tiene 28 años) es uno de los vocalistas principales y guitarrista de Morat, también toca piano y ukelele. Estudia Administración de Empresas de la Universidad de los Andes, está estudiando una segunda carrera con énfasis musical y es cofundador de la exitosa casa de producción Mapache.</p>
+  <img src="pablo.jpg" class="PABLO1" height="450" width="400">
+  <p class="VILLAMIL">Juan Pablo Villamil Cortés</p>
+  <p class="COMO">Juan Pablo Villamil Cortés (nació el 1 de diciembre de 1994, tiene 28 años) también es vocalista principal de Morat, toca el banjo, ukelele y guitarra. Es egresado de Música e Ingeniería Industrial de la Universidad de los Andes. En 2018 junto con un amigo lanzó su marca de ropa llamada GNRL studios.</p>
+  <img src="villamil.jpg" class="VILLAMIL1" height="450" width="400">
+  <p class="SIMON">Simón Vargas Morales</p>
+  <p class="PQ">Simón Vargas Morales (nació el 24 de octubre de 1993, tiene 29 años) es vocalista y bajista de Morat, maneja los modulares. Estudio Historia en la Universidad de los Andes. Tiene un hermano ( Martín Vargas Morales) en la misma banda, Morat, Estudio Historia en la Universidad de los Andes. En el 2020 presentó su primer libro "A la orilla de la luz".</p>
+  <img src="SIMON.jpg" class="SIMON1" height="450" width="400">
+  <p class="MARTIN">Martín Vargas Morales</p>
+  <p class="ES">Martín Vargas Morales (nació el 25 de septiembre de 1996) es cantante y baterista del grupo de Morat.Es egresado de Diseño Gráfico de la Universidad de los Andes. Forma parte de Morat junto a su hermano Simón Vargas. También es actor.</p>
+  <img src="MARTIN.jpg" class="MARTIN1" height="450" width="400">
+  <p class="ALEJANDRO">Alejandro Posada Carrasco</p>
+  <p class="HA">Alejandro Posada Carrasco era el baterista del grupo Morat, hasta que el 19 de dicimbre de 2016 hizo una publicación en redes sociales a través de la cuenta de la banda enunciando que abandonaba Morat para proteger cosas importantes para él, incluyendo sus intenciones de estudiar arquitectura</p>
+  <img src="ALEJANDRO.jpg" class="ALEJANDRO1" height="450" width="400">
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr class="BR2">
+  <h2 class="hora3"><script>DameLaFechaHora();</script></h2>
+</body>
+</html>

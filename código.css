@@ -1,0 +1,376 @@
+.Banner{
+ position: absolute;
+ font-size: 100px;
+ right: 375px;
+ left: 800px;
+ top: 25px;
+ color : black;
+}
+.indice4{
+text-decoration: underline;
+ font-size: 50px;
+ color: #80297C;
+ position: absolute;
+ left: 1555px;
+ top: 275px;
+}
+.indice3{
+ text-decoration: underline;
+ font-size: 50px;
+ color: #80297C;
+ position: absolute;
+ left: 1375px;
+ top: 275px;
+}
+.indice2{
+ text-decoration: underline;
+ font-size: 50px;
+ position: absolute;
+ left: 1125px;
+ top: 275px;
+}
+.indice1{
+ text-decoration: underline;
+ font-size: 50px;
+ position: absolute;
+ left: 975px;
+ top: 275px;
+}
+.ALBUM{
+font-size: 50px;
+color: #F3B1F9 ;
+position: absolute;
+top: 350px;
+left: 305px;
+}
+.respuesta{
+font-size: 25px;
+position: absolute;
+top: 425px;
+left: 400px;
+}
+.ADV{
+position: absolute;
+top: 500px;
+left: 325px;
+}
+.DISCO{
+font-size: 50px;
+color: #F3B1F9 ;
+position: absolute;
+top: 350px;
+left: 975px;
+}
+.ANSWER{
+font-size: 25px;
+position: absolute;
+top: 425px;
+left: 1175px;
+}
+.VIDEO{
+position: absolute;
+top: 550px;
+left: 1025px;
+}
+.BR{
+background-color:#CB7CFC  ;
+width: 1500px;
+height: 10px;
+position: absolute;
+top: 980px;
+left: 150px;
+}
+.hora1{
+border:#CB7CFC  8px outset;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 350px;
+height: 60px;
+color: #CB7CFC ;
+font-family: 'Nunito', sans-serif;
+font-size: 17pt;
+line-height: 50px;
+position: absolute;
+top: 1000px;
+left: 750px;
+right: 3850;
+}
+.QUE{
+font-size: 60px;
+color: #81E5B6;
+position: absolute;
+top: 375px;
+left: 215px;
+}
+.MORAT{
+font-size: 27px;
+font-style: italic;
+position: absolute;
+top: 500px;
+left: 80px;
+right: 1100px;
+}
+.IMAGEN{
+position: absolute;
+top: 400px;
+left: 950px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.M{
+font-size: 60px;
+color:  #81E5B6;
+position: absolute;
+top: 875px;
+left: 1115px;
+}
+.INTEGRANTES{
+font-size: 27px;
+font-style: italic;
+position: absolute;
+top: 985px;
+left: 800px;
+right: 300px;
+}
+.PEQUES{
+position: absolute;
+top: 1025px;
+left: 75px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.BR1{
+background-color:#81E5B6  ;
+width: 1500px;
+height: 10px;
+position: absolute;
+top: 1525px;
+left: 150px;
+}
+.hora2{
+border:#81E5B6  8px outset;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 350px;
+height: 60px;
+color: #81E5B6 ;
+font-family: 'Nunito', sans-serif;
+font-size: 17pt;
+line-height: 50px;
+position: absolute;
+top: 1550px;
+left: 750px;
+right: 3850;
+}
+.PABLO{
+font-size: 47px;
+text-decoration: underline;
+color: #C993F3;
+position: absolute;
+top: 850px;
+left: 70px;
+}
+.HISTORIA{
+font-size: 27px;
+position: absolute;
+top: 950px;
+left: 85px;
+right: 1350px;
+}
+.PABLO1{
+position: absolute;
+top: 400px;
+left: 100px;
+}
+.VILLAMIL{
+font-size: 47px;
+text-decoration: underline;
+color: #C993F3;
+position: absolute;
+top: 850px;
+left:665px;
+}
+.COMO{
+font-size: 27px;
+position: absolute;
+top: 950px;
+left: 675px;
+right: 700px;
+} 
+.VILLAMIL1{
+position: absolute;
+top: 400px;
+left: 700px;
+}
+.SIMON{
+font-size: 47px;
+text-decoration: underline;
+color: #C993F3;
+position: absolute;
+top: 850px;
+left:1300px;   
+}
+.PQ{
+font-size: 27px;
+position: absolute;
+top: 950px;
+left: 1325px;
+right: 150px;
+}
+.SIMON1{
+position: absolute;
+top: 400px;
+left: 1325px;
+}
+.MARTIN{
+font-size: 47px;
+text-decoration: underline;
+color: #C993F3;
+position: absolute;
+top: 1800px;
+left: 310px;
+}
+.ES{
+font-size: 27px;
+position: absolute;
+top: 1900px;
+left: 315px;
+right: 1100px;
+}
+.MARTIN1{
+position: absolute;
+top: 1375px;
+left: 320px;
+}
+.ALEJANDRO{
+font-size: 47px;
+text-decoration: underline;
+color: #C993F3;
+position: absolute;
+top: 1800px;
+left: 1050px;
+}
+.HA{
+font-size: 27px;
+position: absolute;
+top: 1900px;
+left: 1020px;
+right: 300px;   
+}
+.ALEJANDRO1{
+position: absolute;
+top: 1375px;
+left: 1100px;
+}
+.BR2{
+background-color:#C993F3  ;
+width: 1500px;
+height: 10px;
+position: absolute;
+top: 2225px;
+left: 150px;   
+}
+.hora3{
+border:#C993F3  8px outset;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 350px;
+height: 60px;
+color: #C993F3 ;
+font-family: 'Nunito', sans-serif;
+font-size: 17pt;
+line-height: 50px;
+position: absolute;
+top: 2250px;
+left: 750px;
+right: 3850;
+}
+table{
+font-size: 25px;
+}
+.BR3{
+background-color:#80297C  ;
+width: 1500px;
+height: 10px;
+position: absolute;
+top: 3925px;
+left: 150px;    
+}
+.hora4{
+border:#80297C  8px outset;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 350px;
+height: 60px;
+color: #80297C ;
+font-family: 'Nunito', sans-serif;
+font-size: 17pt;
+line-height: 50px;
+position: absolute;
+top: 3950px;
+left: 750px;
+right: 3850;
+}
+.contacto{
+font-size: 35px;
+color: #B6FC7C;
+position: absolute;
+top: 375px;
+left: 300px;   
+}
+.insta{
+font-size: 25px;
+position: absolute;
+top: 450px;
+left: 305px;
+}
+.UBI{
+    text-decoration: underline;
+font-size: 25px;
+position: absolute;
+top: 550px;
+left: 525px;   
+}
+.MAPA{
+position: absolute;
+top: 650px;
+left: 305px;
+}
+.BR4{
+background-color:#B6FC7C  ;
+width: 1500px;
+height: 10px;
+position: absolute;
+top: 1050px;
+left: 150px;      
+}
+.hora5{
+border:#B6FC7C  8px outset;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 350px;
+height: 60px;
+color: #B6FC7C ;
+font-family: 'Nunito', sans-serif;
+font-size: 17pt;
+line-height: 50px;
+position: absolute;
+top: 1100px;
+left: 750px;
+right: 3850;
+}
+}

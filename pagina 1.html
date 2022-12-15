@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pagina 1</title>
+	<link href="código.css" rel="stylesheet" type="text/css">
+  <Script Language="JavaScript">
+  function DameLaFechaHora() {
+    var hora = new Date()
+    var hrs = hora.getHours();
+    var min = hora.getMinutes();
+    var hoy = new Date();
+    var m = new Array();
+    var d = new Array()
+    var an= hoy.getYear();
+    m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+    m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+    m[6]="Julio"; m[7]="Agosto";   m[8]="Septiembre";
+    m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+  
+  if (min<10){
+    document.write("Son las "+hrs+":0"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  else{
+    document.write("Son las "+hrs+":"+min+" (");
+    document.write(hoy.getDate());
+    document.write(" de ");
+    document.write(m[hoy.getMonth()]);
+    document.write(")");
+  }
+  
+  }
+</Script>
+</head>
+<body>
+  <img src="fondo.png" height="250" width="1800">
+  <h1 class="Banner">MORAT</h1>
+  <img src="LILA.png" height="100" width="1800">
+    <a href="pagina 4.html" class="indice4"> Contacto</a>
+    <a href="pagina 3.html" class="indice3"> Música </a>
+    <a href="pagina 2.html" class="indice2"> Integrantes </a>
+    <a href="pagina 1.html" class="indice1"> Inicio </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="QUE">¿Quiénes son MORAT?</p>
+  <p class="MORAT">Morat es una banda colombiana de pop latino formada originalmente en Bogotá en 2011. Se dieron a conocer en 2015 con su éxito Mi nuevo vicio. Sus integrantes son Juan Pablo Isaza Piñeros, Juan Pablo Villamil Cortés, Simón Vargas Morales y Martín Vargas Morales. Hasta finales de 2016 había formado parte de la banda Alejandro Posada Carrasco, pero decidió abandonar el grupo, por lo que fue sustituido por Martín Vargas ese mismo año. Pese a que todos componen, los principales autores de la formación son los dos Juan Pablo (Villamil e Isaza).</p>
+  <img src="morat1.jfif" class="IMAGEN" height="450" width="800">
+  <p class="M">Historia</p>
+  <p class="INTEGRANTES">Los integrantes de Morat se conocen desde los 5 años de edad, ya que estudiaban juntos en el colegio Gimnasio La Montaña de Bogotá, y algunos de ellos posteriormente en la Universidad de los Andes. Dos de sus integrantes (Simón y Martín Vargas son hermanos de sangre).Comenzaron tocando juntos en varias ocasiones y cuando cursaban la secundaria Juan Pablo Isaza tomó la decisión de crear una banda cuando seguian estudiando. En el año 2014, la banda realizó una sesión de grabación en Bogotá. Y con el paso del tiempo empezaron a tener una audiencia propia.En sus comienzos, no había grandes expectativas para la banda. En su primera reunión con el representante artístico Malaver, fueron rechazados después de que escuchara una de sus primeras composiciones. La respuesta que les dio fue la siguiente: "Creo que ustedes son talentosos, pero nunca tendrán una canción en la radio. Deberían haber nacido en Argentina a fines de los setenta, porque su música no es adecuada para lo que está sucediendo en este momento".Pero una vez que los escuchó tocar en vivo, Malaver quedó impresionado por el potencial de los chicos y decidió representarlos.</p>
+  <img src="infancia.jpg" class="PEQUES" height="400" width="675">
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr class="BR1">
+  <h2 class="hora2"><script>DameLaFechaHora();</script></h2>
+</body>
+</html>
